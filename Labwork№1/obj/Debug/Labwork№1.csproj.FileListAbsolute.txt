@@ -1,0 +1,8 @@
+C:\NLTU\My nltu reports\The Second Year\Second Semestr\OOP c#\Labwork№1\Labwork№1\bin\Debug\Labwork№1.exe.config
+C:\NLTU\My nltu reports\The Second Year\Second Semestr\OOP c#\Labwork№1\Labwork№1\bin\Debug\Labwork№1.exe
+C:\NLTU\My nltu reports\The Second Year\Second Semestr\OOP c#\Labwork№1\Labwork№1\bin\Debug\Labwork№1.pdb
+C:\NLTU\My nltu reports\The Second Year\Second Semestr\OOP c#\Labwork№1\Labwork№1\obj\Debug\Labwork№1.csproj.AssemblyReference.cache
+C:\NLTU\My nltu reports\The Second Year\Second Semestr\OOP c#\Labwork№1\Labwork№1\obj\Debug\Labwork№1.csproj.SuggestedBindingRedirects.cache
+C:\NLTU\My nltu reports\The Second Year\Second Semestr\OOP c#\Labwork№1\Labwork№1\obj\Debug\Labwork№1.csproj.CoreCompileInputs.cache
+C:\NLTU\My nltu reports\The Second Year\Second Semestr\OOP c#\Labwork№1\Labwork№1\obj\Debug\Labwork№1.exe
+C:\NLTU\My nltu reports\The Second Year\Second Semestr\OOP c#\Labwork№1\Labwork№1\obj\Debug\Labwork№1.pdb
