@@ -125,11 +125,11 @@ namespace Labwork_1
             Console.WriteLine(obj4.ToString());
             obj1.ChangeRGB(33, 33, 33);
             Console.WriteLine(obj1.ToString());
-            int test = 0, test2 = 0, test3 = 0;
-            test = Convert.ToInt32(Console.ReadLine());
-            test2 = Convert.ToInt32(Console.ReadLine());
-            test3 = Convert.ToInt32(Console.ReadLine());
-            obj1.ChangeRGB(test, test2, test3);
+            int NewRedColor = 0, NewGreenColor = 0, NewBlueColor = 0;
+            NewRedColor = Convert.ToInt32(Console.ReadLine());
+            NewGreenColor = Convert.ToInt32(Console.ReadLine());
+            NewBlueColor = Convert.ToInt32(Console.ReadLine());
+            obj1.ChangeRGB(NewRedColor, NewGreenColor, NewBlueColor);
             Console.WriteLine(obj1.ToString());
             Console.ReadKey();
         }
