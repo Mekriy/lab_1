@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Specialized;
 
 namespace Labwork_1
 {
@@ -31,9 +32,17 @@ namespace Labwork_1
             get => red;
             set
             {
-                if (value < 0 || value > 255)
-                    throw new ApplicationException("Invalid Red Value");
-                else red = value;
+                try
+                {
+                    if (value < 0 || value > 255)
+                        throw new ApplicationException("Invalid Red Value");
+                    red = value;
+                }
+                catch(Exception Ex) {
+                    Console.WriteLine(Ex.Message + "\n Try again: ");
+                    value = Convert.ToInt32(Console.ReadLine());
+                    Red = value;
+                }
             }
         }
         public int Green
@@ -41,9 +50,18 @@ namespace Labwork_1
             get => green;
             set
             {
-                if (value < 0 || value > 255)
-                    throw new ApplicationException("Invalid Green Value");
-                else green = value;
+                try
+                {
+                    if (value < 0 || value > 255)
+                        throw new ApplicationException("Invalid Green Value");
+                    green = value;
+                }
+                catch (Exception Ex)
+                {
+                    Console.WriteLine(Ex.Message + "\n Try again: ");
+                    value = Convert.ToInt32(Console.ReadLine());
+                    Green = value;
+                }
             }
         }
         public int Blue
@@ -51,9 +69,18 @@ namespace Labwork_1
             get => blue;
             set
             {
-                if (value < 0 || value > 255)
-                    throw new ApplicationException("Invalid Blue Value");
-                else blue = value;
+                try
+                {
+                    if (value < 0 || value > 255)
+                        throw new ApplicationException("Invalid Blue Value");
+                    blue = value;
+                }
+                catch (Exception Ex)
+                {
+                    Console.WriteLine(Ex.Message + "\n Try again: ");
+                    value = Convert.ToInt32(Console.ReadLine());
+                    Blue = value;
+                }
             }
         }
         public ColorPoint()
@@ -98,7 +125,13 @@ namespace Labwork_1
             Console.WriteLine(obj4.ToString());
             obj1.ChangeRGB(33, 33, 33);
             Console.WriteLine(obj1.ToString());
-            Console.ReadLine();
+            int test = 0, test2 = 0, test3 = 0;
+            test = Convert.ToInt32(Console.ReadLine());
+            test2 = Convert.ToInt32(Console.ReadLine());
+            test3 = Convert.ToInt32(Console.ReadLine());
+            obj1.ChangeRGB(test, test2, test3);
+            Console.WriteLine(obj1.ToString());
+            Console.ReadKey();
         }
     }
 }
